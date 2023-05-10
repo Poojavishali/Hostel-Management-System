@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hostel Management System</title>
+      <!-- CSS Style sheets, bootstrap scriots -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        .button{
+            background-color: #ff0000;
+        }
+    </style>
+</head>
+<body>
+	<header>
+		<h1>Hostel Management System</h1>
+		<nav>
+			<ul>
+				<li><a href="pindex.html">Home</a></li>
+				<li><a href="phostels.html">Search Hostel</a></li>
+				<li><a href="pcontact.html">Contact Us</a></li>
+			</ul>
+            
+		</nav>
+	</header>
+
+	<main>
+		<section id="search">
+			<h2>Search for Hostel</h2>
+			<form>
+				<label for="location">Location:</label>
+				<input type="text" id="location" name="location">
+				<label for="building">Building:</label>
+				<select id="building" name="building">
+					<option value="">--Select--</option>
+					<option value="building1">Building 1</option>
+					<option value="building2">Building 2</option>
+					<option value="building3">Building 3</option>
+				</select>
+				<label for="room">Room Type:</label>
+				<select id="room" name="room">
+					<option value="">--Select--</option>
+					<option value="single">Single</option>
+					<option value="double">Double</option>
+					<option value="triple">Triple</option>
+				</select>
+                <form action="payments.html">
+                    <button type="submit search"><a href="payments.html">Search</a></button>
+                </form>
+			</form>
+			<p><a href="www.google.com">Advanced Search</a></p>
+		</section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 Hostel Management System. All rights reserved.</p>
+    </footer>
+    
+    <!-- <script src="script.js"></script> -->
+</body>
+</html>
